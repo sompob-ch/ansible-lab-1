@@ -1,0 +1,6 @@
+---
+- hosts: apache
+  tasks:
+   - debug: msg="Don't Worry"
+  roles:
+   - { role: adriagalin.motd }
